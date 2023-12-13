@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin:0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color:   #11193f;
+    background-repeat: no-repeat;
+}
+
+img {
+    border-radius: 15px;
+}
+
+.main{
+    width: 1440px;
+    margin: 0 auto   
+}
+
+.header{
+    background-color: #070d28;
+    width:100%;
+    height:90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.logo {
+    font-family: sans-serif;
+    font-size: 24px;
+    color: #fff;
+    padding: 15px;
+    margin: 15px;
+    padding-top: 15px;
+}
+
+.nav-menu-center {
+    list-style:none;
+    display: flex;
+    margin-top: 5px;
+}
+
+.nav-menu-center li {
+    margin: 15px;
+    padding: 15px;
+    font-family: sans-serif;
+}
+.nav-menu-center a {
+    text-decoration:none;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+.nav-menu-center a:hover{
+    text-decoration: underline;
+    color: aqua;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.welcomeBanner{
+    width: auto;
+    height: 500px;
+    padding: 15px;
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text h1{
+    font-size:96px;
+    color: #fff;
+}
+
+.text p{
+    font-size: 36px;
+    color: #fff;
+}
+
+.welcomeButton{
+    padding-left: -90px;
+}
+
+.projects{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding-top: 200px;
+    display: block;
+    color: #fff;
+}
+
+.project{
+    display:list-item;
+    list-style: none;
+    text-align: justify;
+}
+
+.item{
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.contacts{
+    background-color: #070d28;
+    width:100%;
+    height:90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.footer-contacts{
+    font-family: sans-serif;
+    font-size: 24px;
+    color: #fff;
+    padding: 15px;
+    margin: 15px;
+    padding-top: 15px;
+}
+   
+.button-container {
+    padding-top: 23px;
+    padding-left: 210px;
+  }
+  a.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #fff;
+    width: 200px;
+    height: 75px;
+    border-radius: 10px;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 220px;    
+  }
+  a.button:hover {
+    border-color: #fff;
+}
+
+.contacts {
+    font-size:36px;
+    color: #fff;
+}
